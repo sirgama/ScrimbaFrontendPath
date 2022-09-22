@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/nrb.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.torshov{
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: #1b3f51;
+    
+}
+.enjoy{
+    background-color: blueviolet;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold; 
+}
+.activities{
+    background-color: #f2fbef;
+    height: 70vh;
+    
+    
+}
+.lion{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px 0 5px 0;
+    
+}
+.act-list{
+    display: flex;
+    justify-content: space-around;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 8px;
+    
+}
+.card-section{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    margin: 2px 4px;
+}
+.card{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 10px solid blue
+}
